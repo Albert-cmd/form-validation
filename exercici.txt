@@ -1,0 +1,9 @@
+A partir de l'exemple ValidacioInicial.zip que teniu penjat al moodle
+(i que parteix del tutorial TIZAG: http://www.tizag.com/javascriptT/javascriptform.php) feu el següent:
+
+1.- Modifiqueu l'HTML i el javascript de manera que, en comptes d'un "alert" s'utilitzi un element "span"
+ (o similar) al costat de cada camp per indicar l'error detectat.
+
+2) Centralitzeu el control d'errors en un únic mètode tractarError que calculi l'id de l'span i col.loqui el missatge corresponent.
+
+3) Modifiqueu el mètode que  valida el formulari per a que validi tots el camps a la vegada i situï el focus en el primer camp que doni error.
